@@ -93,6 +93,12 @@ nav {
   color: #2d76ee;
 }
 
+.footer-links a {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  color: rgb(241, 224, 207);
+}
+
 .navbar3:hover a,
 .navbar4:hover a {
   color: #2d76ee;
@@ -102,6 +108,7 @@ nav {
   display: none;
 }
 
+<<<<<<< HEAD
 .bottom-nav {
   border-top: rgb(207, 207, 207) solid 0.4rem;
 }
@@ -161,4 +168,67 @@ nav {
   text-overflow: ellipsis;
   height: auto;
   white-space: nowrap;
+=======
+/*
+    ==============================================
+                ****** TOP FOOTER ******
+    ==============================================
+*/
+
+.top-footer {
+  background-color: rgb(34, 32, 32);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.social-links li {
+  padding: 1rem;
+}
+
+.social-links li:hover {
+  background-color: black;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/*
+    ==============================================
+                ****** BASE FOOTER ******
+    ==============================================
+*/
+
+.bottom-footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img1 {
+  width: 10%;
+}
+
+.footer-img2 {
+  width: 20%;
+}
+
+.last {
+  display: inline;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+>>>>>>> 29a97b15ba6bc43cb99bbc43585f060d7f1ab7d0
 }
