@@ -31,9 +31,12 @@ a {
                 ****** GLOBAL ******
     ==============================================
 */
+nav {
+  position: fixed;
+}
 
 .top-nav {
-  background-color: #2D76EE ;
+  background-color: #2d76ee;
   color: white;
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -47,7 +50,6 @@ a {
   font-size: 0.8rem;
   padding: 1rem;
   line-height: 1.4rem;
-
 }
 
 .navbar3 {
@@ -81,17 +83,82 @@ a {
   padding: 0.5rem;
 }
 
+.yellow-a a {
+  color: black;
+}
+
 .navbar3:hover,
 .navbar4:hover {
   background-color: white;
-  color: #2D76EE;
+  color: #2d76ee;
 }
 
 .navbar3:hover a,
 .navbar4:hover a {
-  color: #2D76EE;
+  color: #2d76ee;
 }
 
 .bottom-nav-b {
   display: none;
+}
+
+.bottom-nav {
+  border-top: rgb(207, 207, 207) solid 0.4rem;
+}
+
+.middle-bottom-nav {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-start;
+}
+
+.left:hover {
+  cursor: pointer;
+  background-image: url("https://source.unsplash.com/random/120x80");
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: white;
+}
+
+.left img {
+  width: 4rem;
+  height: auto;
+}
+
+.right img {
+  width: 1rem;
+  height: auto;
+}
+
+.search,
+.burger {
+  padding: 0.5rem;
+  border: solid 0.2px lightgray;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-a {
+  background-color: rgb(255, 208, 0);
+  width: 100vw;
+  padding: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  white-space: nowrap;
 }
