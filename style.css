@@ -95,3 +95,27 @@ a {
 .bottom-nav-b {
   display: none;
 }
+
+/*
+    ==============================================
+                ****** TOP FOOTER ******
+    ==============================================
+*/
+
+.top-footer {
+  background-color: rgb(34, 32, 32);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.social-links li {
+  padding: 1rem;
+}
+
+.social-links li:hover {
+  background-color: black;
+}
