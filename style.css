@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
-
 *,
 *::before,
 *::after {
@@ -31,12 +26,72 @@ a {
   color: white;
 }
 
-a:hover {
-  color: #333;
-}
-
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
+
+.top-nav {
+  background-color: #2D76EE ;
+  color: white;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "navbar2 navbar2" "navbar3 navbar4";
+}
+
+.navbar2-a {
+  border-bottom: 0.5px solid white;
+  grid-area: navbar2;
+  font-size: 0.8rem;
+  padding: 1rem;
+  line-height: 1.4rem;
+
+}
+
+.navbar3 {
+  grid-area: navbar3;
+  display: flex;
+  align-items: center;
+  border-right: 0.5px solid white;
+}
+
+.navbar4 {
+  grid-area: navbar4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar1 {
+  display: none;
+}
+
+.navbar2-b {
+  display: none;
+}
+
+.per-link {
+  padding-left: 1rem;
+}
+
+.navbar3,
+.navbar4 {
+  padding: 0.5rem;
+}
+
+.navbar3:hover,
+.navbar4:hover {
+  background-color: white;
+  color: #2D76EE;
+}
+
+.navbar3:hover a,
+.navbar4:hover a {
+  color: #2D76EE;
+}
+
+.bottom-nav-b {
+  display: none;
+}
