@@ -108,7 +108,6 @@ nav {
   display: none;
 }
 
-<<<<<<< HEAD
 .bottom-nav {
   border-top: rgb(207, 207, 207) solid 0.4rem;
 }
@@ -168,7 +167,6 @@ nav {
   text-overflow: ellipsis;
   height: auto;
   white-space: nowrap;
-=======
 /*
     ==============================================
                 ****** TOP FOOTER ******
@@ -230,5 +228,4 @@ nav {
   display: inline;
   font-size: 0.7rem;
   line-height: 1.3rem;
->>>>>>> 29a97b15ba6bc43cb99bbc43585f060d7f1ab7d0
 }
