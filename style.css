@@ -33,7 +33,7 @@ a {
     ==============================================
 */
 
-nav {
+.my-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -437,7 +437,7 @@ nav {
     box-sizing: border-box;
   }
 
-  nav {
+  .my-nav {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
   }
@@ -590,7 +590,7 @@ nav {
     font-weight: bold;
   }
 
-  nav {
+  .my-nav {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
   }
