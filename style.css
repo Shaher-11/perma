@@ -70,6 +70,10 @@ a {
   color: rgb(241, 224, 207);
 }
 
+.fund-middle a:hover {
+  color: rgb(0, 0, 0);
+}
+
 .top-nav-widthscreen a:hover {
   padding: 0 1rem;
   color: rgb(255, 255, 255);
@@ -226,6 +230,10 @@ a {
   gap: 0.5rem;
 }
 
+.top-text a:hover {
+  color: black;
+}
+
 .top-text-bottom {
   display: flex;
   flex-direction: column;
@@ -291,6 +299,8 @@ a {
 
 .fund-bottom p {
   color: rgb(48, 48, 48);
+  font-size: 0.9rem;
+  line-height: 1.4rem;
 }
 
 .fund-bottom abbr {
@@ -447,11 +457,11 @@ a {
 }
 
 .footer-img1 {
-  width: 10%;
+  width: 2rem;
 }
 
 .footer-img2 {
-  width: 20%;
+  width: 4rem;
 }
 
 .last {
@@ -595,10 +605,28 @@ a {
     margin-bottom: 19rem;
   }
 
+  .top-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .top-text h2 {
+    width: 50%;
+  }
+
+  .top-text-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+  }
+
   .center {
     margin: 0 auto;
     height: 100%;
-    width: 70%;
+    width: 90%;
   }
 
   .top-right {
