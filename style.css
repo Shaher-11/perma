@@ -70,6 +70,10 @@ a {
   color: rgb(241, 224, 207);
 }
 
+.fund-middle a:hover {
+  color: rgb(0, 0, 0);
+}
+
 .top-nav-widthscreen a:hover {
   padding: 0 1rem;
   color: rgb(255, 255, 255);
@@ -220,6 +224,10 @@ a {
   flex-direction: column;
   padding: 1rem;
   gap: 0.5rem;
+}
+
+.top-text a:hover {
+  color: black;
 }
 
 .top-text-bottom {
