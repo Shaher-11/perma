@@ -39,29 +39,52 @@ nav {
   right: 0;
   z-index: 999;
 }
+
+.yellow-a a {
+  color: black;
+}
+
 .top-nav-widthscreen {
   background-color: black;
   display: none;
   align-items: center;
-  
 }
+
+.fund-container a {
+  color: #f42;
+}
+
 .top-nav-widthscreen a {
   padding: 0 1rem;
   color: rgb(184, 184, 184);
 }
+
+.fund-middle a {
+  color: #555;
+}
+
+.footer-links a {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  color: rgb(241, 224, 207);
+}
+
 .top-nav-widthscreen a:hover {
   padding: 0 1rem;
   color: rgb(255, 255, 255);
 }
+
 .first-left {
   display: flex;
   width: 50%;
 }
+
 .first-right {
   display: flex;
   justify-content: flex-end;
   width: 50%;
 }
+
 .top-nav {
   background-color: #2d76ee;
   color: white;
@@ -70,12 +93,9 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "navbar2 navbar2" "navbar3 navbar4";
 }
-.left-middle {
-  display: none
-}
 
-.fund-container a {
-  color: #f42;
+.left-middle {
+  display: none;
 }
 
 .navbar2-a {
@@ -112,29 +132,15 @@ nav {
   padding-left: 1rem;
 }
 
-.fund-middle a {
-  color: #555;
-}
-
 .navbar3,
 .navbar4 {
   padding: 0.5rem;
-}
-
-.yellow-a a {
-  color: black;
 }
 
 .navbar3:hover,
 .navbar4:hover {
   background-color: white;
   color: #2d76ee;
-}
-
-.footer-links a {
-  padding: 0.5rem;
-  font-size: 0.7rem;
-  color: rgb(241, 224, 207);
 }
 
 .navbar3:hover a,
@@ -309,19 +315,19 @@ nav {
 
 .top-right {
   background-image:
-    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
     url('assets/Opal-796x417.jpg');
 }
 
 .top-right-head {
   background-image:
-    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
     url('assets/top-right.webp');
 }
 
 .bottom-right-head {
   background-image:
-    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
+    linear-gradient(to bottom, rgba(165, 163, 163, 0.87), rgba(7, 7, 7, 0.73)),
     url('assets/bottom-right.png');
 }
 
@@ -417,37 +423,40 @@ nav {
 */
 
 @media only screen and (min-width: 500px) {
- nav {
-   display: grid;
-   grid-template-rows:1fr 2fr 1fr;
- }
- 
- .top-nav {
-   display: none;
- }
+  .top-right {
+    background-image:
+      linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
+      url('assets/Opal-796x417.jpg');
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: auto;
+  }
 
- .yellow-a {
-   padding: 0.5rem;
-   padding-left: 1rem;
-   margin: 0;
- }
+  nav {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
 
- .yellow-a img {
-   width: 1rem;
- }
- 
+  .top-nav {
+    display: none;
+  }
+
+  .yellow-a {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    margin: 0;
+  }
+
+  .yellow-a img {
+    width: 1rem;
+  }
+
   .head {
     margin-top: 8rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
     grid-gap: 0.5rem;
-  }
-
-  .top-right {
-    grid-row: 1/3;
-    grid-column: 1/2;
-    height: auto;
   }
 
   .top-right-head {
@@ -484,12 +493,16 @@ nav {
     padding-left: 0.5rem;
   }
 
-  #burg {
-    display: none;
+  .left-middle {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
   }
 
-  .left-middle {
-    display: none
+  #burg {
+    display: none;
   }
 
   .bottom-nav {
@@ -510,14 +523,6 @@ nav {
 
   .middle-bottom-nav a:hover {
     color: rgb(7, 7, 7);
-  }
-
-  .left-middle {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
   }
 
   .hide {
@@ -565,8 +570,3 @@ nav {
     display: inline;
   }
 }
-
-<<<<<<< HEAD
-}
-=======
->>>>>>> 6ae721253a4a71ab25832dd61022de3ed0ac0033
