@@ -3,6 +3,7 @@
                 ****** RESET ******
     ==============================================
 */
+
 body {
   margin: 0;
 }
@@ -88,7 +89,7 @@ nav {
 .top-nav {
   background-color: #2d76ee;
   color: white;
-  display: grid;
+  display: none;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "navbar2 navbar2" "navbar3 navbar4";
@@ -158,7 +159,6 @@ nav {
 
 .middle-bottom-nav {
   display: flex;
-  width: 100%;
 }
 
 .left {
@@ -300,7 +300,7 @@ nav {
 */
 
 .head {
-  margin-top: 14rem;
+  margin-top: 6rem;
 }
 
 .left-head {
@@ -422,7 +422,11 @@ nav {
     ==============================================
 */
 
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
+=======
+@media only screen and (min-width: 800px) {
+>>>>>>> 889f2af3c80e0b721392fefb8022ef819954b63a
   .top-right {
     background-image:
       linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
