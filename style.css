@@ -37,6 +37,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 .top-nav {
@@ -173,15 +174,7 @@ nav {
   white-space: nowrap;
 }
 
-.head {
-  margin-top: 200px;
-}
-
-/*
-    ==============================================
-                ****** THE Funding section******
-    ==============================================
-*/
+/* THE FUND SECTION */
 
 .card-container {
   display: flex;
@@ -217,8 +210,27 @@ nav {
   padding: 0.8rem;
 }
 
+.fund-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.fund-middle a {
+  color: #555;
+}
+
+.fund-middle i {
+  padding: 0.3rem;
+}
+
+.fund-middle,
 .fund-bottom {
-  border-top: 1px solid rgba(255,68,34,.25)
+  background-color: rgba(255,68,34,.02);
+}
+
+.fund-bottom {
+  border-top: 1px solid rgba(255,68,34,.02)
 }
 
 /*
