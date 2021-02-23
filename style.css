@@ -171,6 +171,12 @@ nav {
 
 /*
     ==============================================
+                ****** HEAD SECTION ******
+    ==============================================
+*/
+
+/*
+    ==============================================
                 ****** TOP FOOTER ******
     ==============================================
 */
@@ -230,4 +236,11 @@ nav {
   display: inline;
   font-size: 0.7rem;
   line-height: 1.3rem;
+}
+
+.fa-universal-access {
+  background-color: rgb(44, 44, 247);
+  position: absolute;
+  right: 0%;
+  margin-right: 1rem;
 }
