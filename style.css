@@ -345,6 +345,10 @@ nav {
   font-size: 0.7rem;
 }
 
+.date {
+  display: none;
+}
+
 /*
     ==============================================
                 ****** TOP FOOTER ******
@@ -430,6 +434,7 @@ nav {
     grid-row: 1/3;
     grid-column: 1/2;
     height: auto;
+    box-sizing: border-box;
   }
 
   nav {
@@ -457,6 +462,13 @@ nav {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
     grid-gap: 0.5rem;
+  }
+
+  .date {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    right: 0;
   }
 
   .top-right-head {
@@ -539,6 +551,23 @@ nav {
     margin: 0 auto;
     height: 100%;
     width: 70%;
+  }
+
+  .top-right {
+    background-image:
+      linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
+      url('assets/Opal-796x417.jpg');
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .date {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
   }
 
   .fund4 {
