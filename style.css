@@ -36,10 +36,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-<<<<<<< HEAD
   z-index: 999;
-=======
->>>>>>> f2eeed0f82497af8abafbf9a8374d55b2e821391
 }
 
 .top-nav {
@@ -176,10 +173,6 @@ nav {
   white-space: nowrap;
 }
 
-.head {
-  margin-top: 200px;
-}
-
 /* THE FUND SECTION */
 .card-container {
   display: flex;
@@ -211,8 +204,23 @@ nav {
   position: absolute;
   padding: 0.8rem;
 }
+.fund-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.fund-middle a {
+  color: #555;
+}
+.fund-middle i {
+  padding: 0.3rem;
+}
+.fund-middle,
 .fund-bottom {
-  border-top: 1px solid rgba(255,68,34,.25)
+  background-color: rgba(255,68,34,.02);
+}
+.fund-bottom {
+  border-top: 1px solid rgba(255,68,34,.02)
 }
 /*
     ==============================================
