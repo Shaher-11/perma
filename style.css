@@ -568,6 +568,14 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .middle-bottom-nav {
+    display: flex;
+  }
+
+  .left {
+    display: none;
+  }
+
   .head {
     margin-bottom: 1rem;
   }
