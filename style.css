@@ -284,19 +284,19 @@ nav {
 
 .top-right {
   background-image:
-    linear-gradient(to bottom, rgba(233, 101, 49, 0.52), rgba(233, 73, 193, 0.73)),
+    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
     url('assets/Opal-796x417.jpg');
 }
 
 .top-right-head {
   background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
     url('assets/top-right.webp');
 }
 
 .bottom-right-head {
   background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(22, 18, 21, 0.73)),
     url('assets/bottom-right.png');
 }
 
@@ -441,6 +441,16 @@ nav {
 }
 
 @media only screen and (min-width: 1050px) {
+  .head {
+    margin-bottom: 19rem;
+  }
+
+  .center {
+    margin: 0 auto;
+    height: 100%;
+    width: 70%;
+  }
+
   .fund4 {
     display: block;
   }
@@ -449,15 +459,15 @@ nav {
     display: block;
     background-image: url(assets/tnw.svg);
     background-repeat: no-repeat;
-    padding-bottom: 5rem;
-    margin-bottom: 3rem;
+    padding-bottom: 5rem !important;
+    margin-bottom: 13rem !important;
   }
 
   .left-head h2 {
     display: none !important;
   }
 
-  .top-right .tnw-bottom {
-    font-size: 4rem;
+  .tnw-bottom a {
+    font-weight: bold;
   }
 }
