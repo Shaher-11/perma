@@ -434,6 +434,7 @@ nav {
  }
  
   .head {
+    margin-top: 8rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
