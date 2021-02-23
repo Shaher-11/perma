@@ -1,18 +1,16 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
+![](https://img.shields.io/badge/perma-blueviolet)
 
-# Project Name
+# Perma
 
-> One paragraph statement about the project.
+> This website is a replica of the next web website it build entirely with HTML and CSS 
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
@@ -21,23 +19,8 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+**Clone the Repo or download the zip folder**
+**Open the html file with your browser**
 
 
 
@@ -45,13 +28,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Shaher-11/)
+- Twitter: [@twitterhandle](https://twitter.com/ShaherShamroukh/)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/Shaher-Shamroukh/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/garciajordy/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
@@ -67,9 +50,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The next web
+- Microverse
+
 
 ## 📝 License
 
