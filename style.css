@@ -49,6 +49,7 @@ a {
   background-color: black;
   display: none;
   align-items: center;
+  white-space: nowrap;
 }
 
 .fund-container a {
@@ -447,6 +448,30 @@ a {
 */
 
 @media only screen and (min-width: 768px) {
+  .middle-bottom-nav {
+    display: grid;
+    grid-template-columns: 6rem 1fr 1fr;
+  }
+
+  .left {
+    grid-column: 1/2;
+    display: block;
+    background-color: black;
+  }
+
+  .left-middle {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    grid-column: 2/3;
+  }
+
+  .right {
+    grid-column: 3/4;
+  }
+
   .top-right {
     background-image:
       linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
@@ -525,14 +550,6 @@ a {
     padding-left: 0.5rem;
   }
 
-  .left-middle {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-  }
-
   #burg {
     display: none;
   }
@@ -545,12 +562,10 @@ a {
     display: flex;
   }
 
-  .left {
-    display: none;
-  }
-
   .middle-bottom-nav a {
     color: rgb(135, 135, 136);
+    padding-left: 1rem;
+    white-space: nowrap;
   }
 
   .middle-bottom-nav a:hover {
@@ -563,8 +578,16 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .middle-bottom-nav {
+    display: flex;
+  }
+
+  .left {
+    display: none;
+  }
+
   .head {
-    margin-bottom: 19rem;
+    margin-bottom: 1rem;
   }
 
   .top-text {
