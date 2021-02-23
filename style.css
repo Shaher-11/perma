@@ -33,6 +33,10 @@ a {
 */
 nav {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .top-nav {
@@ -108,7 +112,6 @@ nav {
   display: none;
 }
 
-<<<<<<< HEAD
 .bottom-nav {
   border-top: rgb(207, 207, 207) solid 0.4rem;
 }
@@ -168,7 +171,46 @@ nav {
   text-overflow: ellipsis;
   height: auto;
   white-space: nowrap;
-=======
+}
+
+.head {
+  margin-top: 200px;
+}
+
+/* THE FUND SECTION */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fund1 {
+  width: 100%;
+  margin: 10px;
+}
+
+.top-1 {
+  background-color: #f42;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: white;
+}
+
+.top-2 {
+  background: rgba(255,68,34,.08);
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+.top2-p {
+  color: rgba(0, 0, 0, 0.50);
+}
+.top-2 h4 {
+  font-size: 18px
+}
+.fund-top img {
+  position: absolute;
+  padding: 0.8rem;
+}
+.fund-bottom {
+  border-top: 1px solid rgba(255,68,34,.25)
+}
 /*
     ==============================================
                 ****** TOP FOOTER ******
@@ -230,5 +272,4 @@ nav {
   display: inline;
   font-size: 0.7rem;
   line-height: 1.3rem;
->>>>>>> 29a97b15ba6bc43cb99bbc43585f060d7f1ab7d0
 }
