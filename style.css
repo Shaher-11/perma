@@ -31,6 +31,7 @@ a {
                 ****** GLOBAL ******
     ==============================================
 */
+
 nav {
   position: fixed;
   top: 0;
@@ -80,6 +81,10 @@ nav {
 
 .per-link {
   padding-left: 1rem;
+}
+
+.fund-middle a {
+  color: #555;
 }
 
 .navbar3,
@@ -174,6 +179,7 @@ nav {
 }
 
 /* THE FUND SECTION */
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -197,41 +203,48 @@ nav {
   background: rgba(255,68,34,.08);
   padding: 10.6666666667px 16px 10.6666666667px 84px;
 }
+
 .top2-p {
   color: rgba(0, 0, 0, 0.50);
 }
+
 .top-2 h4 {
-  font-size: 18px
+  font-size: 18px;
 }
+
 .fund-top img {
   position: absolute;
   padding: 0.8rem;
 }
+
 .fund-middle {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
-.fund-middle a {
-  color: #555;
-}
+
 .fund-middle i {
   padding: 0.3rem;
 }
+
 .fund-middle,
 .fund-bottom {
   background-color: rgba(255,68,34,.02);
 }
+
 .fund-bottom {
   border-top: 1px solid rgba(255, 67, 34, 0.397);
   padding: 1rem;
 }
+
 .fund-bottom p {
   color: rgb(48, 48, 48);
 }
+
 .fund-bottom abbr {
   color: rgb(122, 122, 122);
 }
+
 /*
     ==============================================
                 ****** HEAD SECTION ******
@@ -330,8 +343,7 @@ nav {
 }
 
 .fa-universal-access {
-  background-color: rgb(44, 44, 247);
+  background-color: #2d76ee;;
   position: absolute;
   right: 0%;
-  margin-right: 1rem;
 }
