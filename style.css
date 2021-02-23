@@ -422,29 +422,7 @@ nav {
     ==============================================
 */
 
-<<<<<<< HEAD
 @media only screen and (min-width: 800px) {
- nav {
-   display: grid;
-   grid-template-rows:1fr 2fr 1fr;
- }
-
- .top-nav {
-   display: none;
- }
-
- .yellow-a {
-   padding: 0.5rem;
-   padding-left: 1rem;
-   margin: 0;
- }
-
- .yellow-a img {
-   width: 1rem;
- }
- 
-=======
-@media only screen and (min-width: 500px) {
   .top-right {
     background-image:
       linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
@@ -473,7 +451,6 @@ nav {
     width: 1rem;
   }
 
->>>>>>> e0c607c42e40889a30b5bc3af07463a0b1683584
   .head {
     margin-top: 8rem;
     display: grid;
