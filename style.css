@@ -416,8 +416,8 @@ a {
   color: white;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .footer-img1 {
@@ -576,6 +576,15 @@ a {
   .hide {
     display: none;
   }
+
+  .bottom-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-footer br {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -659,5 +668,14 @@ a {
 
   .hide {
     display: inline;
+  }
+
+  .bottom-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-footer br {
+    display: none;
   }
 }
