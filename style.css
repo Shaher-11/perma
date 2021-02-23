@@ -33,6 +33,9 @@ a {
 */
 nav {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .top-nav {
@@ -174,6 +177,23 @@ nav {
                 ****** HEAD SECTION ******
     ==============================================
 */
+
+.head {
+  margin-top: 14rem;
+}
+
+.left-head {
+  background-image: url(assets/Opal-796x417.jpg);
+  padding-top: 14rem;
+  background-size: 100% 100%;
+  height: 12rem;
+}
+
+.tnw-bottom {
+  color: #fff;
+  font-size: 4rem;
+  padding: 17rem;
+}
 
 /*
     ==============================================
