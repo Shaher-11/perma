@@ -179,9 +179,11 @@ nav {
 }
 
 /* THE FUND SECTION */
+
 .fund-container a {
   color: #f42;
 }
+
 .top-text {
   display: flex;
   flex-direction: column;
@@ -214,7 +216,7 @@ nav {
 }
 
 .top2-p {
-  color: rgba(0, 0, 0, 0.50);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .top-2 h4 {
@@ -365,6 +367,8 @@ nav {
 
 .fa-universal-access {
   background-color: #2d76ee;;
-  position: absolute;
-  right: 0%;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  bottom: 0;
 }
