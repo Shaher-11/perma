@@ -422,11 +422,7 @@ nav {
     ==============================================
 */
 
-<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
-=======
-@media only screen and (min-width: 800px) {
->>>>>>> 889f2af3c80e0b721392fefb8022ef819954b63a
   .top-right {
     background-image:
       linear-gradient(to bottom, rgba(223, 42, 10, 0.87), rgba(7, 7, 7, 0.73)),
