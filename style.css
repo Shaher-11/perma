@@ -445,10 +445,16 @@ nav {
     display: block;
   }
 
-  .tnw {
+  .tnw-img {
     display: block;
-    font-size: 6rem;
-    color: white;
+    background-image: url(assets/tnw.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .left-head h2 {
+    display: none !important;
   }
 
   .top-right .tnw-bottom {
