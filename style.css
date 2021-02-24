@@ -386,10 +386,13 @@ a {
                 ****** LATEST NEWS SECTION ******
     ==============================================
 */
-
+.latest-container {
+  padding: 0.8rem;
+}
 .latest {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 }
 .img-text {
   color: black;
@@ -406,7 +409,6 @@ a {
 .latest1 {
   display: flex;
   gap: 0.5rem;
-  padding: 0.2rem 0.8rem;
 }
 .latest1 img {
   width: 80px;
@@ -416,6 +418,7 @@ a {
   color: rgb(175, 175, 175);
   font-size: 0.8rem;
 }
+
 /*
     ==============================================
                 ****** TOP FOOTER ******
@@ -630,6 +633,27 @@ a {
 
   .bottom-footer br {
     display: none;
+  }
+  .latest {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .latest1 img {
+    width: 100%;
+    height: 100px;
+  }
+  .latest1 {
+    display: block;
+    width: 32%;
+    height: 100%;
+  }
+  .latest1 a {
+    margin: 0;
+  }
+  .latest2 {
+    margin-right: 16rem;
   }
 }
 
