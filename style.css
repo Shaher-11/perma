@@ -631,6 +631,14 @@ a {
 */
 
 @media only screen and (min-width: 768px) {
+  .categories-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .middle-bottom-nav {
     display: grid;
     grid-template-columns: 6rem 1fr 1fr;
@@ -796,6 +804,13 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .categories-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    min-width: 1024px;
+    margin: 0 auto;
+  }
+
   .middle-bottom-nav {
     display: flex;
   }
