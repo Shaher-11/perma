@@ -470,6 +470,46 @@ a {
   font-size: 1.4rem;
 }
 
+.comments-gear-a {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.gear-middle,
+.gear-middle .comments-gear-a {
+  color: #f42;
+  background-color: #fff4f2;
+}
+
+.gear-middle {
+  padding: 0.8rem 7rem 0.8rem 0.5rem;
+  height: 6.5rem;
+  background-size: 7rem 7rem;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/1-copy-46.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.gear-bottom-a {
+  color: rgb(95, 93, 93);
+}
+
+.gear-bottom-a:hover {
+  color: black;
+}
+
+.gear-list li {
+  list-style-type: disc;
+  margin: 1rem 1rem 0.7rem 1.3rem;
+  color: #f42;
+  padding-bottom: 0.4rem;
+  border-bottom: 0.2px solid rgb(211, 206, 206);
+}
+
+.hard-fork {
+  margin-bottom: 2rem;
+}
+
 /*
     ==============================================
                 ****** TOP FOOTER ******
