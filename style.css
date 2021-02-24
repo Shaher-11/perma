@@ -428,6 +428,50 @@ a {
 
 /*
     ==============================================
+                ****** THE CATEGORIES SECTION ******
+    ==============================================
+*/
+
+.categories-container {
+  margin: 0.5rem;
+}
+
+.title {
+  color: #f42;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.gear-top1 {
+  background-image:
+    linear-gradient(to bottom, rgba(99, 91, 91, 0.87), rgba(34, 32, 32, 0.73)),
+    url('https://source.unsplash.com/random/270x190');
+  height: 17rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-left: 0.8rem;
+  color: #fff;
+}
+
+.writer {
+  font-size: 0.6rem;
+  color: rgb(161, 153, 153);
+  padding-bottom: 0.6rem;
+  padding-top: 0.7rem;
+}
+
+.writer:hover {
+  color: #fff;
+}
+
+.short {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/*
+    ==============================================
                 ****** TOP FOOTER ******
     ==============================================
 */
