@@ -702,7 +702,7 @@ a {
   .center {
     margin: 0 auto;
     height: 100%;
-    width: 90%;
+    width: 70%;
   }
 
   .top-right {
@@ -758,5 +758,28 @@ a {
 
   .bottom-footer br {
     display: none;
+  }
+
+  .latest {
+    gap: 1%;
+    justify-content: space-between;
+  }
+
+  .latest1 {
+    width: 24%;
+    padding-bottom: 1rem;
+  }
+
+  .latest1 img {
+    height: 150px;
+  }
+
+  .latest2 {
+    margin-right: 0;
+  }
+
+  .img-text {
+    font-size: 0.9rem;
+    padding-bottom: 0.5em;
   }
 }
