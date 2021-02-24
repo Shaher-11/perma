@@ -229,10 +229,21 @@ a {
                 ****** THE LATEST NEWS SECTION ******
     ==============================================
 */
-
-.latest-container h2 {
+#latest-deals-a,
+#deals-a {
   color: #f42;
   padding-bottom: 1rem;
+}
+
+#deals-a {
+  padding-bottom: 0;
+}
+
+.latest-cont-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 /*
@@ -424,6 +435,10 @@ a {
 .time {
   color: rgb(175, 175, 175);
   font-size: 0.8rem;
+}
+
+.price {
+  text-decoration: line-through;
 }
 
 /*
