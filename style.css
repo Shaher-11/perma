@@ -370,6 +370,35 @@ a {
     ==============================================
 */
 
+.latest {
+  display: flex;
+  flex-direction: column;
+}
+.img-text {
+  color: black;
+  font-weight: 900;
+  line-height: 1rem;
+}
+.img-text p {
+  padding-bottom: 0.5rem;
+}
+.img-text:hover {
+  color: red;
+}
+
+.latest1 {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.2rem 0.8rem;
+}
+.latest1 img {
+  width: 80px;
+  height: 80px;
+}
+.time {
+  color: rgb(175, 175, 175);
+  font-size: 0.8rem;
+}
 /*
     ==============================================
                 ****** TOP FOOTER ******
