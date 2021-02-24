@@ -239,11 +239,20 @@ a {
   padding-bottom: 0;
 }
 
+.title:hover {
+  color: black;
+}
+
 .latest-cont-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+#latest-deals-a:hover,
+#deals-a:hover {
+  color: black;
 }
 
 /*
@@ -530,6 +539,18 @@ a {
 .comments-gear-a {
   font-size: 1.1rem;
   font-weight: 800;
+}
+
+#lts a {
+  color: #f42;
+}
+
+#lts {
+  padding-bottom: 2rem;
+}
+
+#lts a:hover {
+  color: black;
 }
 
 .gear-middle,
