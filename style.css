@@ -451,13 +451,13 @@ a {
 #top3 {
   background-image:
     linear-gradient(to bottom, rgba(197, 189, 189, 0.87), rgba(34, 32, 32, 0.73)),
-    url('https://source.unsplash.com/random/272x192');
+    url('https://source.unsplash.com/random/261x191');
 }
 
 #top4 {
   background-image:
     linear-gradient(to bottom, rgba(189, 179, 179, 0.87), rgba(34, 32, 32, 0.73)),
-    url('https://source.unsplash.com/random/273x192');
+    url('https://source.unsplash.com/random/265x192');
 }
 
 #top5 {
@@ -806,7 +806,7 @@ a {
 @media only screen and (min-width: 1024px) {
   .categories-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% auto auto;
     min-width: 1024px;
     margin: 0 auto;
   }
