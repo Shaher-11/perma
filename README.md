@@ -34,9 +34,8 @@
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/garciajordy/)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@iliebabcenco](https://github.com/iliebabcenco)
+
 
 ## 🤝 Contributing
 
