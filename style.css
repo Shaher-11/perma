@@ -166,6 +166,12 @@ a {
   display: flex;
 }
 
+/*
+    ==============================================
+                ****** THE HEAD SECTION ******
+    ==============================================
+*/
+
 .left {
   background-color: black;
   padding: 0.5rem 1rem;
@@ -216,6 +222,17 @@ a {
   text-overflow: ellipsis;
   height: auto;
   white-space: nowrap;
+}
+
+/*
+    ==============================================
+                ****** THE LATEST NEWS SECTION ******
+    ==============================================
+*/
+
+.latest-container h2 {
+  color: #f42;
+  padding-bottom: 1rem;
 }
 
 /*
