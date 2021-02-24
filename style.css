@@ -650,11 +650,7 @@ a {
     background-image: url(assets/tnw.svg);
     background-repeat: no-repeat;
     padding-bottom: 5rem !important;
-    margin-bottom: 13rem !important;
-  }
-
-  .left-head h2 {
-    display: none !important;
+    margin-bottom: 10rem !important;
   }
 
   .tnw-bottom a {
