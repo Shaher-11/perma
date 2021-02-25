@@ -20,7 +20,13 @@
 ## Getting Started
 
 **Clone the Repo or download the zip folder**
+
+**Unzip the folder**
+
 **Open the html file with your browser**
+
+**The project is completely responsive**
+
 
 
 
@@ -34,9 +40,8 @@
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/garciajordy/)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@iliebabcenco](https://github.com/iliebabcenco)
+
 
 ## 🤝 Contributing
 
