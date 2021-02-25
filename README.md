@@ -20,7 +20,13 @@
 ## Getting Started
 
 **Clone the Repo or download the zip folder**
+
+**Unzip the folder**
+
 **Open the html file with your browser**
+
+**The project is completely responsive**
+
 
 
 
