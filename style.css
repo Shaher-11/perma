@@ -425,8 +425,9 @@ a {
 
 .img-text {
   color: black;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1rem;
+  font-size: 0.9rem;
 }
 
 .img-text p {
