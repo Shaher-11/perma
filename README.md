@@ -2,7 +2,7 @@
 
 # Perma
 
-> This website is a replica of the next web website it build entirely with HTML and CSS 
+> This website is a replica of the next web website it built entirely with HTML and CSS 
 
 ![screenshot](assets/screenshot.png)
 
